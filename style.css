@@ -1,0 +1,133 @@
+/* 
+************ Propriedades *************** 
+    width       - largura - lateral %
+    height      - altura - px
+    padding     - espaçamento interno entre o texto e o elemento 
+            >> top    - espaçamento superior 
+            >> bottom - espaçamento inferior
+            >> right  - espaçamento a direita
+            >> left   - espaçamento a esquerda
+    margin      - espaçamento 
+    color       - cor de texto
+    display     - tipo de alinhamento (flexbox)
+    fonte-size  - tamanho da fonte 
+    text-align  - alinhamento do texto
+
+    
+    background-color -  cor de fundo
+*/
+ .cabecalho{
+  margin: 0px 0px 0px 0px; /*top right bottom left*/
+  width: 100%;
+  background-color: rgb(68, 181, 187);
+  height: 40px;
+  padding: 5%;  
+}
+
+.cabecalho h1, .cabecalho h2{
+    color: azure;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho h1{
+    font-size: 30px;
+    font-weight: 60;
+}
+
+.cabecalho h2{
+    font-size: 15px;
+    font-weight: 30;
+}
+
+.main{
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    background-color: rgb(31, 33, 33);
+    padding: 5%;  
+    display: flex;
+    flex-direction: column; /*direção dos elemento - um debaixo - column*/
+    justify-content: space-between; /*alinhando verticalmente, para o column*/
+    align-items: center; /*alinhar horizontalmente, para o column*/
+}
+
+.main p{
+    color: rgb(255, 255, 255);
+}
+
+.main img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover; /*PESQUISAR*/
+}
+
+.main2{
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    background-color: rgb(31, 33, 33);
+    padding: 5%;  
+    display: flex;
+    flex-direction: row; /*direção dos elemento - um debaixo - row*/
+    justify-content: space-between; /*alinhando horizontal, para o row*/
+    align-items: flex-start; /*alinhar verticalmente, para o row*/
+}
+
+.main2 p{
+    text-align: center; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.main img{
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.principal{
+    border: 5px dotted white;
+    padding: 2%;
+    display: flex;
+}
+
+.sherk{
+    padding: 3%;
+}
+
+.principalsherk h1{
+    color: rgb(255, 255, 255);
+}
+
+.card{
+    display: flex;
+    flex-direction: column; /*direção dos elemento - um debaixo - row*/
+    justify-content: space-between; /*alinhando horizontal, para o row*/
+    align-items: center; /*alinhar verticalmente, para o row*/
+    width: 20%;
+    padding: 1%;
+}
+
+.rodape{
+    margin: 0px 0px 0px 0px; /*top right bottom left*/
+    width: 100%;
+    background-color:aliceblue;
+    height: 60px;
+    padding: 3%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape p{
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 100px;
+}
+
+.rodape a{
+    color: rgb(11, 170, 182);
+    text-decoration: none;
+}
+
+*{margin:0;
+box-sizing:border-box}
