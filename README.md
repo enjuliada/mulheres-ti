@@ -1,11 +1,3 @@
-# mulheres-ti
-Conhecendo sobre Mulheres na tecnologia utilizando meus conhecimentos recém adquiridos em: HTML e CSS.
-
-TItulo e descrição (contando objetivo do projeto)
-O que foi utilizado (em lista)
-Imagens demonstrativas (preview do código)
-Como rodar o código 
-
 # Mulheres em Tecnologia
 Conhecendo sobre Mulheres na tecnologia utilizando meus conhecimentos recém adquiridos em: HTML e CSS.
 
